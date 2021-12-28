@@ -3,7 +3,7 @@ from pydantic import BaseSettings
 
 # Settings
 class Settings(BaseSettings):
-    database_uri: str
+    database_url: str
     jwt_secret_key: str
 
     class Config:
